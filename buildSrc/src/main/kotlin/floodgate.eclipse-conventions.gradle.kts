@@ -1,4 +1,5 @@
 plugins {
+    `java-library`
     // allow resolution of compileOnlyApi dependencies in Eclipse
     id("eclipse")
 }
