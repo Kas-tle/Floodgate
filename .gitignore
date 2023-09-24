@@ -11,7 +11,7 @@ tmp/
 *~.nib
 local.properties
 .settings/
-!/.settings/
+!/.settings/org.eclipse.jdt.core.prefs
 .loadpath
 .recommenders
 
