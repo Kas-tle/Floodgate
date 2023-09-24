@@ -5,6 +5,7 @@ dependencies {
     api(projects.core)
     annotationProcessor(projects.core)
     annotationProcessor(libs.micronaut.inject.java)
+    compileOnlyApi(projects.isolation)
 
     implementation(libs.cloud.velocity)
 }

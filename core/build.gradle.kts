@@ -2,6 +2,8 @@ plugins {
     id("floodgate.generate-templates")
     id("floodgate.dependency-hash")
     id("io.micronaut.library")
+    // allow resolution of compileOnlyApi dependencies in Eclipse
+    id("floodgate.eclipse-conventions")
 }
 
 dependencies {

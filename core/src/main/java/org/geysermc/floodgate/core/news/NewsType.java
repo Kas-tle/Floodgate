@@ -23,15 +23,15 @@
  * @link https://github.com/GeyserMC/Floodgate
  */
 
-package org.geysermc.floodgate.news;
+package org.geysermc.floodgate.core.news;
 
 import com.google.gson.JsonObject;
 import java.util.function.Function;
-import org.geysermc.floodgate.news.data.AnnouncementData;
-import org.geysermc.floodgate.news.data.BuildSpecificData;
-import org.geysermc.floodgate.news.data.CheckAfterData;
-import org.geysermc.floodgate.news.data.ConfigSpecificData;
-import org.geysermc.floodgate.news.data.ItemData;
+import org.geysermc.floodgate.core.news.data.AnnouncementData;
+import org.geysermc.floodgate.core.news.data.BuildSpecificData;
+import org.geysermc.floodgate.core.news.data.CheckAfterData;
+import org.geysermc.floodgate.core.news.data.ConfigSpecificData;
+import org.geysermc.floodgate.core.news.data.ItemData;
 
 public enum NewsType {
     BUILD_SPECIFIC(BuildSpecificData::read),

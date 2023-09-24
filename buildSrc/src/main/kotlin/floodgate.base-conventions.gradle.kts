@@ -3,6 +3,8 @@ plugins {
 //    id("net.ltgt.errorprone")
     id("net.kyori.indra")
     id("net.kyori.indra.git")
+    // allow resolution of compileOnlyApi dependencies in Eclipse
+    id("floodgate.eclipse-conventions")
 }
 
 dependencies {
